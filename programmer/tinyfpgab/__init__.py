@@ -243,6 +243,6 @@ class TinyFPGAB(object):
 
         # FIXME: printing out this spinner ensures the busy loop in _write is
         #        not optimized away
-        print "Your lucky number: " + str(self.spinner)
+        print("Your lucky number: " + str(self.spinner))
 
         return False
